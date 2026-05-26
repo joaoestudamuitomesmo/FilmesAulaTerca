@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDBunda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Recomendador de filmes</h1>
+
+        <div class="filtros-container">
+            <div class="campo-filtro">
+                <label for="filtroAno">Ano:</label>
+                <select id="filtroAno">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+
+            <div class="campo-filtro">
+                <label for="filtroGenero">Gênero:</label>
+                <select id="filtroGenero">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+        </div>
+        <div id="listaFilmes" class="grid-filmes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
